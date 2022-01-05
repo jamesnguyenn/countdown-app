@@ -26,40 +26,50 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="header">
-      <h1>HAPPY NEW YEAR</h1>
-      <p>COUNT DOWN TO 2023</p>
+      <h1 class="animate__animated animate__bounceInDown">HAPPY NEW YEAR</h1>
+      <p class="animate__animated animate__bounceInUp">
+        COUNT DOWN TO <strong>2023</strong>
+      </p>
     </div>
     <div class="count-list">
       <div class="count-item">
         <div class="count-content">
-          <p id="days"></p>
+          <p id="days" class="animate__animated animate__flipInX">00</p>
           <span>Days</span>
         </div>
       </div>
       <div class="count-item">
         <div class="count-content">
-          <p id="hours"></p>
+          <p id="hours" class="animate__animated animate__flipInX">00</p>
           <span>Hours</span>
         </div>
       </div>
       <div class="count-item">
         <div class="count-content">
-          <p id="minutes"></p>
+          <p id="minutes" class="animate__animated animate__flipInX">00</p>
           <span>Minutes</span>
         </div>
       </div>
       <div class="count-item">
         <div class="count-content">
-          <p id="seconds"></p>
+          <p id="seconds" class="animate__animated animate__flipInX">00</p>
           <span>Seconds</span>
         </div>
       </div>
     </div>
+    <footer class="footer">
+      © 2021. All rights reserved | Designed by
+      <a href="#" class="text-success">JamesNguyen</a>
+    </footer>
     <script src="./app.js"></script>
   </body>
 </html>

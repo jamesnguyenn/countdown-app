@@ -14,7 +14,7 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   height: auto;
-  background: url("https://images.unsplash.com/photo-1641391827558-615b71b56bf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"), rgba(0, 0, 0, 0.39);
+  background: url(./img/11062905_1020373774657591_709250786804205134_o.jpg), rgba(0, 0, 0, 0.534);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;

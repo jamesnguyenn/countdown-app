@@ -14,7 +14,8 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   height: auto;
-  background: url(./11062905_1020373774657591_709250786804205134_o.jpg), rgba(0, 0, 0, 0.534);
+  background: url(./11062905_1020373774657591_709250786804205134_o.jpg),
+    rgba(0, 0, 0, 0.534);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;

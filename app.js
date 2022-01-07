@@ -21,21 +21,20 @@ function countDown() {
     days = Math.floor(second / 86400);
 
     daysEL.innerHTML = days;
-    if (days < 9) {
+    if (days <= 9) {
       hoursEL.innerHTML = `0${days}`;
     }
     hoursEL.innerHTML = hours;
-    if (hours < 9) {
+    if (hours <= 9) {
       hoursEL.innerHTML = `0${hours}`;
     }
     minutesEL.innerHTML = minutes;
-    if (minutes < 9) {
-      hoursEL.innerHTML = `0${minutes}`;
+    if (minutes <= 9) {
+      minutesEL.innerHTML = `0${minutes}`;
     }
     secondsEl.innerHTML = seconds;
-    minutesEL.innerHTML = minutes;
-    if (seconds < 9) {
-      hoursEL.innerHTML = `0${seconds}`;
+    if (seconds <= 9) {
+      secondsEL.innerHTML = `0${seconds}`;
     }
     if (counter === totalSeconds) {
       clearInterval(timer);

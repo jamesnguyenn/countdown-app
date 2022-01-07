@@ -1,4 +1,4 @@
-$particles: 100;
+$particles: 50;
 $width: 500;
 $height: 500;
 
@@ -74,7 +74,7 @@ $box-shadow2: ();
 //   margin: 0;
 //   padding: 0;
 //   background: #000;
-//   overflow: hidden;
+// //   overflow: hidden;
 // }
 
 .pyro > .before,
@@ -88,7 +88,7 @@ $box-shadow2: ();
     (
       1s bang ease-out infinite backwards,
       1s gravity ease-in infinite backwards,
-      1s position linear infinite backwards
+      5s position linear infinite backwards
     )
   );
 }

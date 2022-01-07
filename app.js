@@ -2,7 +2,7 @@ let daysEL = document.querySelector("#days");
 let hoursEL = document.querySelector("#hours");
 let minutesEL = document.querySelector("#minutes");
 let secondsEl = document.querySelector("#seconds");
-let newYear = new Date("01 Jan 2023");
+let newYear = new Date("01 Feb 2022");
 
 function countDown() {
   let newYearDate = new Date(newYear);

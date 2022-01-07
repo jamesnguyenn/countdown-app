@@ -14,12 +14,12 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   height: auto;
-  background: url(./11062905_1020373774657591_709250786804205134_o.jpg),
+  background: url(./259411664_191344466450645_1475537966378332293_n.jpg),
     rgba(0, 0, 0, 0.534);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   padding: 200px 0;
 }
 
@@ -32,6 +32,12 @@ img {
 .header h1 {
   font-size: 50px;
   margin-bottom: 20px;
+  color: transparent;
+  background-image: linear-gradient(to right, #ffa400, #fd0000);
+  -webkit-background-clip: text;
+}
+
+.header p strong {
   color: transparent;
   background-image: linear-gradient(to right, #ffa400, #fd0000);
   -webkit-background-clip: text;
@@ -97,11 +103,6 @@ img {
 
   .header p {
     font-size: 13px;
-  }
-  .header p strong {
-    color: transparent;
-    background-image: linear-gradient(to right, #ffa400, #fd0000);
-    -webkit-background-clip: text;
   }
 
   .count-content p {

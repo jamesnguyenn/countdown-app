@@ -86,9 +86,9 @@ $box-shadow2: ();
   box-shadow: $box-shadow2;
   @include animation(
     (
-      2s bang ease-out infinite backwards,
-      2s gravity ease-in infinite backwards,
-      2s position linear infinite backwards
+      1s bang ease-out infinite backwards,
+      1s gravity ease-in infinite backwards,
+      1s position linear infinite backwards
     )
   );
 }

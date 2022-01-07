@@ -3,12 +3,14 @@ let hoursEL = document.querySelector("#hours");
 let minutesEL = document.querySelector("#minutes");
 let secondsEl = document.querySelector("#seconds");
 let newYear = new Date("01 Feb 2022");
-
+let currentHere = new Date();
+console.log(currentHere);
 function countDown() {
   let newYearDate = new Date(newYear);
   let current = new Date();
   let totalSeconds = Math.floor((newYear.getTime() - current.getTime()) / 1000);
   let counter = 0;
+
   let timer = setInterval(function () {
     counter += 1;
     second = totalSeconds - counter;
@@ -19,9 +21,22 @@ function countDown() {
     days = Math.floor(second / 86400);
 
     daysEL.innerHTML = days;
+    if (days < 9) {
+      hoursEL.innerHTML = `0${days}`;
+    }
     hoursEL.innerHTML = hours;
+    if (hours < 9) {
+      hoursEL.innerHTML = `0${hours}`;
+    }
     minutesEL.innerHTML = minutes;
+    if (minutes < 9) {
+      hoursEL.innerHTML = `0${minutes}`;
+    }
     secondsEl.innerHTML = seconds;
+    minutesEL.innerHTML = minutes;
+    if (seconds < 9) {
+      hoursEL.innerHTML = `0${seconds}`;
+    }
     if (counter === totalSeconds) {
       clearInterval(timer);
       console.log("Happy New Year");

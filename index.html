@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Count Down Lunar New Year App - Coding by JamesNguyen</title>
+    <title>Count Down Lunar New App - Coding by JamesNguyen</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,42 +34,46 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="header">
-      <h1 class="animate__animated animate__bounceInDown">HAPPY NEW YEAR</h1>
-      <p class="animate__animated animate__bounceInUp">
-        Count Down To <strong>Lunar New Year</strong>
-      </p>
+    <div class="pyro">
+      <div class="after"></div>
+
+      <div class="header">
+        <h1 class="animate__animated animate__bounceInDown">HAPPY NEW YEAR</h1>
+        <p class="animate__animated animate__bounceInUp">
+          Count Down To <strong>Lunar New Year</strong>
+        </p>
+      </div>
+      <div class="count-list">
+        <div class="count-item">
+          <div class="count-content">
+            <p id="days" class="animate__animated animate__flipInX">00</p>
+            <span>Days</span>
+          </div>
+        </div>
+        <div class="count-item">
+          <div class="count-content">
+            <p id="hours" class="animate__animated animate__flipInX">00</p>
+            <span>Hours</span>
+          </div>
+        </div>
+        <div class="count-item">
+          <div class="count-content">
+            <p id="minutes" class="animate__animated animate__flipInX">00</p>
+            <span>Minutes</span>
+          </div>
+        </div>
+        <div class="count-item">
+          <div class="count-content">
+            <p id="seconds" class="animate__animated animate__flipInX">00</p>
+            <span>Seconds</span>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        © 2021. All rights reserved | Coding by
+        <a href="#" class="text-success">JamesNguyen</a>
+      </footer>
     </div>
-    <div class="count-list">
-      <div class="count-item">
-        <div class="count-content">
-          <p id="days" class="animate__animated animate__flipInX">00</p>
-          <span>Days</span>
-        </div>
-      </div>
-      <div class="count-item">
-        <div class="count-content">
-          <p id="hours" class="animate__animated animate__flipInX">00</p>
-          <span>Hours</span>
-        </div>
-      </div>
-      <div class="count-item">
-        <div class="count-content">
-          <p id="minutes" class="animate__animated animate__flipInX">00</p>
-          <span>Minutes</span>
-        </div>
-      </div>
-      <div class="count-item">
-        <div class="count-content">
-          <p id="seconds" class="animate__animated animate__flipInX">00</p>
-          <span>Seconds</span>
-        </div>
-      </div>
-    </div>
-    <footer class="footer">
-      © 2021. All rights reserved | Coding by
-      <a href="#" class="text-success">JamesNguyen</a>
-    </footer>
     <script src="./app.js"></script>
   </body>
 </html>
